@@ -2,6 +2,8 @@ import pip
 
 package_names=['flask', 'requests'] #packages to install
 pip.main(['install'] + package_names + ['--upgrade']) 
+package_names=['flask_restful', 'requests'] #packages to install
+pip.main(['install'] + package_names + ['--upgrade']) 
 
 from flask import Flask,send_from_directory,render_template
 from flask import send_from_directory
